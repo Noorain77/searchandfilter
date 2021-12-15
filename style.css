@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  
+}
+body{background-image: url("kz.jpg");
+
+
+  
+
+
+
+  /* Center and scale the image nicely */
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  font-family: sans-serif;
+  overflow: hidden;
+  user-select: none;
+}
+.rightside {  float:right;width:  50%; height: absolute; overflow: hidden; margin-bottom: 100px; padding-top: 90px; padding-right:10px ;  border-radius: 50%;}
+
+.rightside img{  width: 1200px;  height: 1000px; }
+
+
+nav .logo{
+  color: rgb(230, 94, 16);
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 130px;
+  padding-left: 110px;
+}
+nav{
+  height: 150px;
+  background: #2d2e2e;
+  box-shadow: 0 3px 15px rgba(0,0,0,.4);
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  color: white;
+  display: block;
+  padding: 0 15px;
+  line-height: 120px;
+  font-size: 40px;
+  background: #3e3f41;
+  transition: .5s;
+}
+nav ul li a:hover,
+nav ul li a.active{
+  color: #e6e1e1;
+}
+nav ul ul{
+  position: absolute;
+  top: 85px;
+  border-top: 3px solid #23dbdb;
+  opacity: 0;
+  visibility: hidden;
+}
+nav ul li:hover > ul{
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+}
+nav ul ul li{
+  width: 250px;
+  display: list-item;
+  position: relative;
+  border: 1px solid #1a4e66;
+  border-top: none;
+}
+nav ul ul li a{
+  line-height: 50px;
+}
+nav ul ul ul{
+  border-top: none;
+}
+nav ul ul ul li{
+  position: relative;
+  top: -70px;
+  left: 150px;
+}
+nav ul ul li a i{
+  margin-left: 45px;
+}
+section{
+  background: url(bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.lmn h3{
+
+  color: rgb(230, 94, 16);
+  padding-left: 280px;
+  font-size:50px;
+  padding-top: 200px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight:700;
+
+
+
+ }
+
+
+
+ 
+.logo h4{
+  color: rgb(158, 151, 151);
+  padding-left: 00px;
+  font-size:38px;
+  padding-top: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
